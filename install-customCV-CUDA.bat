@@ -137,3 +137,4 @@ echo [INSTALL COMPLETE]
 echo Запуск приложения: run.bat
 echo ========================================
 pause
+
