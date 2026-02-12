@@ -87,11 +87,14 @@ models/
 ```
 
 #### 4. Run Installer
-
+For custom CV2+CUDA+numpy2 use
 ```bash
-install.bat
+install-customCV-CUDA.bat
 ```
-
+For OpenCV2 use
+```bash
+install-openCV.bat
+```
 ## 💻 Usage
 
 ### Launch Application
