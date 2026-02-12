@@ -1,0 +1,32 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+# Core
+numpy==2.1.3
+typing-extensions>=4.15.0
+psutil==5.9.8
+pillow==12.1.0
+tensorrt==10.8.0.43
+pycuda
+
+# PyTorch Nightly (CUDA 12.8 + Blackwell support)
+torch==2.10.0+cu128
+torchvision==0.25.0+cu128
+torchaudio==2.10.0+cu128
+
+# ONNX & ONNX Runtime (FaceFusion 3.5)
+onnx==1.19.1
+onnxruntime-gpu==1.23.2
+
+
+# Face Swapping
+insightface==0.7.3
+cv2_enumerate_cameras==1.1.15
+
+# GFPGAN
+#git+https://github.com/xinntao/BasicSR.git@v1.4.2
+git+https://github.com/TencentARC/GFPGAN.git@v1.3.8
+gfpgan==1.3.8
+
+# UI
+PyQt5==5.15.11
+
